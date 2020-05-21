@@ -1,0 +1,30 @@
+{
+  "name": "@devim-front/tsconfig",
+  "version": "1.0.0",
+  "description": "Конфигурация Typescript для проектов на TS+React.",
+  "main": "tsconfig.json",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "release": "np && npm publish"
+  },
+  "author": "gleb-mikhalkov",
+  "license": "ISC",
+  "devDependencies": {
+    "np": "^6.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devim-front/tsconfig.git"
+  },
+  "keywords": [
+    "devim-front",
+    "tsconfig.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/devim-front/tsconfig/issues"
+  },
+  "homepage": "https://github.com/devim-front/tsconfig#readme"
+}
